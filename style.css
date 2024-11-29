@@ -1,0 +1,36 @@
+*{
+  padding: 0;
+  margin: 0;  
+}
+
+body{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.navbar{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+    background-color: aqua;
+}
+
+.nav-links{
+    /* Quitar viñetas */
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+}
+
+.nav-links li{
+    margin-left: 20px;
+}
+
+.hero{
+    background-image: url("https://assets.bonappetit.com/photos/57c5d0e36a6acdf3485dfb2b/16:9/w_2560%2Cc_limit/3717295073_f5ae257d71_o.jpg");
+    background-size: cover;
+    text-align: center;
+    color: aliceblue;
+    padding: 100px 0;
+}
